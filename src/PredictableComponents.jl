@@ -1,0 +1,5 @@
+module PredictableComponents
+
+# package code goes here
+
+end # module
