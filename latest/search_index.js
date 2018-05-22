@@ -37,7 +37,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Home",
     "title": "Nonlinear Predictability",
     "category": "section",
-    "text": ""
+    "text": "..."
 },
 
 {
@@ -113,11 +113,19 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
+    "location": "lib/library/#CoupledFields.ModelObj",
+    "page": "Library",
+    "title": "CoupledFields.ModelObj",
+    "category": "type",
+    "text": "ModelObj: A type to hold statistical model results\n\nSuch as the matrices W, R, A, T, where R=XW and T=YA.  \n\n\n\n"
+},
+
+{
     "location": "lib/library/#Types-1",
     "page": "Library",
     "title": "Types",
     "category": "section",
-    "text": ""
+    "text": "ModelObj"
 },
 
 {
