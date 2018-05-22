@@ -1,7 +1,5 @@
 module PredictableComponents
 
-
-
 using CoupledFields
 export InputSpace, ModelObj
  export AIF, CVfn, KCCA, gKYA, predict
@@ -133,7 +131,7 @@ end
 """
     KCCA(G::Matrix, Y::Matrix, τ::Int)  \n
 Kernel Canonical Correlation Analysis  \n
-Returns the projection vector of `Y`
+Calculates the projection vector of `Y`
 """
 function KCCA(G::T, Y::T, τ::Int) where T<:Matrix{Float64}
     n = size(G,1)-τ

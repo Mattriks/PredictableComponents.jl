@@ -8,7 +8,7 @@
 
 
 ```math
-\iota_{Pr}=\frac{W'\left(\sum_{\tau=1}^\infty \Sigma_{F_\tau} \right) W}{W' \Sigma_{X}W}
+\iota_{Pr}=\frac{W'\left(\sum_{\tau=1}^\infty \Sigma_{YX}\Sigma_{X}^{-1}\Sigma_{XY} \right) W}{W' \Sigma_{X}W}
 ```
 
 ### Nonlinear Predictability
