@@ -1,7 +1,7 @@
 using Documenter, PredictableComponents
 
 makedocs(
-    modules = [PredictableComponents],
+    modules = [CoupledFields,PredictableComponents],
     clean = false,
     format = :html,
     sitename = "Predictable\nComponents.jl",
